@@ -1,0 +1,24 @@
+---
+import Layout from '~/layouts/LandingLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Demo Page',
+};
+---
+
+<Layout metadata={metadata}>
+
+  <CallToAction
+    title="Demo"
+    subtitle="Call to action"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Do it',
+        href: '',
+        icon: 'tabler:download',
+      },
+    ]}
+  />
+</Layout>
