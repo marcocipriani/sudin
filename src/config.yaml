@@ -9,7 +9,7 @@ metadata:
   title:
     default: Sudin
     template: '%s — Sudin'
-  description: "\U0001F680 Building a new Sudan"
+  description: "\U0001F680 Building together for SouthSudan"
   robots:
     index: true
     follow: true
