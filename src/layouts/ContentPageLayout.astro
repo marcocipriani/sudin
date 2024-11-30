@@ -1,0 +1,61 @@
+---
+import Layout from '~/layouts/Layout.astro';
+import Header from '~/components/widgets/Header.astro';
+import Footer from '~/components/widgets/Footer.astro';
+import CallToActionDonation from '~/components/widgets/CallToActionDonation.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import { headerData, footerData } from '~/navigation';
+import type { MetaData } from '~/types';
+
+export interface Props {
+  metadata: MetaData; // Ensures metadata is always provided
+}
+
+const { metadata } = Astro.props;
+---
+<Layout metadata={metadata}>
+  <!-- Header Slot with Default Content -->
+  <slot name="header">
+    <Header {...headerData} isSticky showRssFeed showToggleTheme />
+  </slot>
+
+  <Hero
+  tagline=""
+  image={{
+    src: '~/assets/images/hero-image.jpg',
+    alt: 'Sudin',
+  }}
+  >
+    <Fragment slot="title">
+      <span class="text-primary dark:text-white highlight">{metadata.title}</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+    </Fragment>
+  </Hero>
+
+  <!-- Main Content -->
+  <main>
+    <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-4xl">
+      <!-- <h1 class="font-bold font-heading text-4xl md:text-5xl leading-tighter tracking-tighter">
+        {metadata.title}
+      </h1> -->
+      <div
+        class="mx-auto prose prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md 
+               prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter 
+               prose-headings:font-bold prose-a:text-blue-600 dark:prose-a:text-blue-400 
+               prose-img:rounded-md prose-img:shadow-lg mt-8"
+      >
+        <slot /> <!-- Default Slot for Main Content -->
+      </div>
+    </section>
+
+    <CallToActionDonation/>
+  </main>
+
+
+  <!-- Footer Slot with Default Content -->
+  <slot name="footer">
+    <Footer {...footerData} />
+  </slot>
+</Layout>
