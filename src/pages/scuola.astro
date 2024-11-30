@@ -1,6 +1,6 @@
 ---
 import Hero from '~/components/widgets/Hero.astro';
-import Layout from '~/layouts/PageLayout.astro';
+import Layout from '~/layouts/ContentPageLayout.astro';
 import CallToActionDonation from '~/components/widgets/CallToActionDonation.astro';
 import strings from '~/strings.json';
 
@@ -10,21 +10,9 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
-  <Hero
-    tagline=""
-    image={{
-      src: '~/assets/images/hero-image.jpg',
-      alt: 'Sudin',
-    }}
-  >
-    <Fragment slot="title">
-      <span class="text-primary dark:text-white highlight">{strings.pageSchool}</span>
-    </Fragment>
+  <div>
+    <h2>Scuola media</h2>
+    <p>Desrizione della scuola</p>
 
-    <Fragment slot="subtitle">
-    </Fragment>
-  </Hero>
-
-  <CallToActionDonation/>
+  </div>
 </Layout>
