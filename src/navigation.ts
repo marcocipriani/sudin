@@ -8,16 +8,16 @@ export const headerData = {
       href: getPermalink('/associazione'),
     },
     {
+      text: 'La Scuola',
+      href: getPermalink('/scuola'),
+    },
+    {
       text: 'Progetti',
       href: getPermalink('/progetti'),
     },
     {
       text: 'Gallery',
       href: getPermalink('/gallery'),
-    },
-    {
-      text: 'Amici di Sudin',
-      href: getPermalink('/amici-di-sudin'),
     },
     {
       text: 'Eventi',
