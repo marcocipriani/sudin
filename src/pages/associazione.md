@@ -3,37 +3,11 @@ title: 'Associazione'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-L'Associazione SUDIN ONLUS è un'organizzazione non profit fondata nel 2023 con l'obiettivo di promuovere lo sviluppo sostenibile e l'inclusione sociale attraverso progetti educativi e culturali.
+L'ASSOCIAZIONE SUDIN ONLUS è nata nell'agosto 2006 in seguito all'esperienza fatta da un’impresa di Udine, la ICOP spa, che nei primi mesi del 2006 ha realizzato, per conto della Protezione Civile Italiana, il Ponte Italia sul fiume Payee nell'area di Rumbek in Sud Sudan. Durante la realizzazione del ponte si è potuta constatare la totale mancanza di persone in grado di svolgere i più comuni mestieri (muratori, falegnami, meccanici, agricoltori, ecc.), e su proposta dei missionari comboniani là operanti, è stata avviato un progetto per la costruzione della prima scuola di formazione professionale della regione per istruire in vari mestieri i giovani sud sudanesi.
 
-## La nostra missione
+L'OBIETTIVO DELL'ASSOCIAZIONE è quello di coinvolgere il mondo delle imprese, in collaborazione con le altre entità che abitualmente operano in ambito sociale (onlus, parrocchie, privati ecc) in programmi di cooperazione con Paesi del sud del mondo.
 
-Crediamo fermamente che l'educazione e la cultura siano strumenti fondamentali per costruire un futuro migliore. La nostra missione è:
-
-- Sostenere progetti educativi innovativi
-- Promuovere l'inclusione sociale
-- Favorire il dialogo interculturale
-- Tutelare l'ambiente e promuovere la sostenibilità
-
-## I nostri valori
-
-- **Trasparenza**: Operiamo con la massima trasparenza nella gestione delle risorse
-- **Inclusività**: Lavoriamo per abbattere ogni barriera sociale e culturale
-- **Sostenibilità**: Promuoviamo uno sviluppo rispettoso dell'ambiente
-- **Innovazione**: Cerchiamo soluzioni creative per affrontare le sfide sociali
-
-## Come sostenerci
-
-Puoi supportare i nostri progetti attraverso:
-
-- Donazioni
-- Volontariato
-- Partecipazione agli eventi
-- Diffusione della nostra missione
-
-## Contatti
 
 - Email: info@sudin.org
-- Telefono: +39 123 456 7890
-- Sede: Via Example 123, Roma
-
-*I dati di contatto sono solo dimostrativi*
+- Telefono: +39 0432 478652
+- Sede: via Torino, 77 33100 Udine
