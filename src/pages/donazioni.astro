@@ -1,8 +1,7 @@
 ---
 import Hero from '~/components/widgets/Hero.astro';
-import Layout from '~/layouts/PageLayout.astro';
+import Layout from '~/layouts/ContentPageLayout.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-import CallToActionDonation from '~/components/widgets/CallToActionDonation.astro';
 import strings from '~/strings.json';
 
 const metadata = {
@@ -11,23 +10,26 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
-  <Hero
-    tagline=""
-    image={{
-      src: '~/assets/images/hero-image.jpg',
-      alt: 'Sudin',
-    }}
-  >
-    <Fragment slot="title">
-      <span class="text-primary dark:text-white highlight">{strings.pageSupport}</span>
-    </Fragment>
+<h2>Come puoi dare il tuo contributo</h2>
+<h3>In banca</h3>
+Bonifico su CC bancario 11193398 BANCA POPOLARE ETICA, filiale di Padova
+ABI 05018 CAB 12101 CIN J
+IBAN IT 15 J 05018 12101 000011193398
 
-    <Fragment slot="subtitle">
-    </Fragment>
-  </Hero>
+<h3>Paypal online</h3>
+Destinato a info@sudin.org.
 
-  <CallToActionDonation/>
+<h3>5 per mille</h3>
+La volontà di donare il 5 per mille si esprime indicando il codice fiscale dell'associazione 94100040305 nella dichiarazione dei redditi.
+
+<h3>Agevolazioni fiscali</h3>
+SUDIN è una organizzazione non lucrativa di utilità sociale (ONLUS) .
+Per le persone fisiche:
+E' possibile effettuare una detrazione dell'imposta lorda IRPEF dovuta, pari al 19% dell'importo donato fino ad un massimo di 2.065,83euro (art.13bis comma 1 lettera 1-bid del D.p.r. 917/86). Oppure è possibile effetuare una deduzione dell'imponibile IRPEF pari al 10% del reddito complessivo dichiarato, fino ad un massimo di 70mila euro all'anno (art.14 comma 1 del Decreto Legge 35/05).
+Per le società:
+E' possibile effettuare una deduzione dell'imponibile IRES pari al 10% del reddidto complessivo dichiarato, fino ad un massimo di 70mila euro all'anno ( art.14 comma 1 del Decreto Legge 35/05).
+
+SUDIN è una Onlus basata sul volontariato degli iscritti. L'Associazione è gestita INTERAMENTE da volontari che non percepiscono alcun compenso. Pertanto TUTTO il ricavato viene devoluto alla Scuola Ireneo Dud.
 
   <Features2
     title="Contatti"
