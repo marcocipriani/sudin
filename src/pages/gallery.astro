@@ -1,6 +1,7 @@
 ---
 import Hero from '~/components/widgets/Hero.astro';
 import Layout from '~/layouts/PageLayout.astro';
+import ImageCarousel from '~/components/widgets/ImageCarousel.astro';
 import CallToActionDonation from '~/components/widgets/CallToActionDonation.astro';
 import strings from '~/strings.json';
 
@@ -10,7 +11,7 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-
+  <ImageCarousel />
 
   <CallToActionDonation/>
 </Layout>
