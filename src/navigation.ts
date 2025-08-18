@@ -50,6 +50,6 @@ export const footerData = {
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
   footNote: `
-    &copy; 2024 Sudin.org
+    &copy; 2025 Sudin.org
   `,
 };

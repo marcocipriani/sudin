@@ -5,14 +5,16 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 # FA LA COSA GIUSTA!
 
-13-15 marzo
+###### 13-15 marzo
 
 SUDIN ha partecipato per la prima volta a Fa la cosa giusta! www.falacosagiusta.org la fiera del consumo critico e degli stili di vita sostenibili a Milano nei padiglioni di Fieramilanocity, con uno stand nella'area Pace e Partecipazione.
 Nei tre giorni della Fiera nel nostro stand sono state esposte le fotografie scattate in Sudan dal fotoreporter americano Douglas Engle www.australfoto.com e sono stati organizzati incontri con alcuni licei e scuole professionali sul tema I GIOVANI PARLANO AI GIOVANI (incontro tra gli studenti e tre loro coetanei che hanno vissuto un'esperienza di solidarietà in Sudan nel territorio dove è poi sorta la scuola) e LA FABBRICAZIONE DEI MATTONI IN TERRA CRUDA( illustrazione della tecnica di fabbricazione dei mattoni insegnata nella Scuola di Barghel). La Fiera è stata un'occasione importante per farci conoscere e creare relazioni con diverse realtà del volontariato.
 
+---
+
 # Notte al castello di SUSANS
 
-18 settembre
+###### 18 settembre
 
 Vi aspettiamo a Majano in provincia di Udine per una grande festa di beneficenza al Castello di Susans www.castellodisusans.com .
 Alle 20 ci sarà una cena placée con l'ottimo catering di VIROCA, durante la quale verrà illustrato il progetto della scuola IRENEO DUD e verranno messi all'asta preziosi oggetti e memorabilia sportive.
