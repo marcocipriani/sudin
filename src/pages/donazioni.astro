@@ -14,26 +14,28 @@ const metadata = {
 <h3>In banca</h3>
 Tramite bonifico bancario:
 <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-700">
-  <p><strong>CC n.:</strong> <span class="font-mono">1000 / 00405474</span><br/>
-  <strong>Banca:</strong> <span class="font-mono">Banca Intesa Sanpaolo, Piazza Paolo Ferrari 10, 20121 Milano</span><br/>
-  <strong>BIC:</strong> <span class="font-mono">BCTTTIMM</span><br/>
-  <strong>IBAN:</strong> <span class="font-mono">IT46 1030 6909 6061 0000 0405 474</span></p>
+  <p><strong>CC n.:</strong> <span class="font-mono">{strings.companyCC}</span><br/>
+  <strong>Banca:</strong> <span class="font-mono">{strings.companyBank}</span><br/>
+  <strong>BIC:</strong> <span class="font-mono">{strings.companyBIC}</span><br/>
+  <strong>IBAN:</strong> <span class="font-mono">{strings.companyIBAN}</span></p>
 </div>
 
-<!-- <h3>Paypal online</h3>
-Inserendo come destinatario <span class="font-mono bg-gray-200 dark:bg-gray-700 p-2 rounded"><strong>info@sudin.org</strong></span>. -->
+<h3>Online, tramite Paypal</h3>
+Inserendo come destinatario <span class="font-mono bg-gray-200 dark:bg-gray-700 p-2 rounded"><strong>{strings.companyMail}</strong></span>.
 
 <h3>5 per mille</h3>
-La volontà di donare il 5 per mille si esprime indicando il codice fiscale dell'associazione <span class="font-mono bg-gray-200 dark:bg-gray-700 p-2 rounded"><strong>94100040305</strong></span> nella dichiarazione dei redditi.
+La volontà di donare il 5 per mille si esprime indicando il codice fiscale dell'associazione <span class="font-mono bg-gray-200 dark:bg-gray-700 p-2 rounded"><strong>{strings.companyFiscalCode}</strong></span> nella dichiarazione dei redditi.
 
 <h3>Agevolazioni fiscali</h3>
-Sudin è una organizzazione non lucrativa di utilità sociale (Onlus) .
-Per le persone fisiche:
-E' possibile effettuare una detrazione dell'imposta lorda IRPEF dovuta, pari al 19% dell'importo donato fino ad un massimo di 2.065,83euro (art.13bis comma 1 lettera 1-bid del D.p.r. 917/86). Oppure è possibile effetuare una deduzione dell'imponibile IRPEF pari al 10% del reddito complessivo dichiarato, fino ad un massimo di 70mila euro all'anno (art.14 comma 1 del Decreto Legge 35/05).
-Per le società:
-E' possibile effettuare una deduzione dell'imponibile IRES pari al 10% del reddidto complessivo dichiarato, fino ad un massimo di 70mila euro all'anno ( art.14 comma 1 del Decreto Legge 35/05).
+SUDIN è una organizzazione non lucrativa di utilità sociale (ONLUS).
 
-Sudin è una Onlus basata sul volontariato degli iscritti. L'Associazione è gestita interamente da volontari che non percepiscono alcun compenso. Pertanto tutto il ricavato viene devoluto alla Scuola Ireneo Dud.
+<strong>Per le persone fisiche</strong>
+È possibile effettuare una detrazione dell'imposta lorda IRPEF dovuta, pari al 19% dell'importo donato fino ad un massimo di 2.065,83euro (art.13bis comma 1 lettera 1-bid del D.p.r. 917/86). Oppure è possibile effetuare una deduzione dell'imponibile IRPEF pari al 10% del reddito complessivo dichiarato, fino ad un massimo di 70mila euro all'anno (art.14 comma 1 del Decreto Legge 35/05).
+
+<strong>Per le società</strong>
+È possibile effettuare una deduzione dell'imponibile IRES pari al 10% del reddito complessivo dichiarato, fino ad un massimo di 70mila euro all'anno ( art.14 comma 1 del Decreto Legge 35/05).
+
+SUDIN è una Onlus basata sul volontariato degli iscritti. L'Associazione è gestita INTERAMENTE da volontari che non percepiscono alcun compenso. Pertanto TUTTO il ricavato viene devoluto alla Scuola Ireneo Dud.
 
   <Features2
     title="Contatti"
@@ -45,7 +47,7 @@ Sudin è una Onlus basata sul volontariato degli iscritti. L'Associazione è ges
       },
       {
         title: 'Mail',
-        description: 'info@sudin.org',
+        description: strings.companyMail,
         icon: 'tabler:mail',
       },
       {

@@ -7,8 +7,8 @@ export const headerData = {
       href: getPermalink('/associazione'),
     },
     {
-      text: 'La Scuola',
-      href: getPermalink('/scuola'),
+      text: 'Amici',
+      href: getPermalink('/amici'),
     },
     {
       text: 'Progetti',

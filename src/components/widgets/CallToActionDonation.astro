@@ -4,6 +4,7 @@ import type { CallToAction, Widget } from '~/types';
 import { getPermalink } from '~/utils/permalinks';
 import Headline from '~/components/ui/Headline.astro';
 import Button from '~/components/ui/Button.astro';
+import strings from '~/strings.json';
 
 interface Props extends Widget {
   title?: string;
@@ -20,7 +21,7 @@ const {
   actions = [
       {
         variant: 'primary',
-        text: 'Pagina Donazioni',
+        text: strings.buttonAction,
         href: getPermalink('/donazioni'),
         icon: 'tabler:heart-handshake',
       },

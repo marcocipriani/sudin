@@ -2,18 +2,25 @@
     "siteTitle": "Sudin",
     "siteMotto": "Building together for South Sudan",
     "companyName": "Associazione Sudin Onlus",
-    "companyAddress": "via Torino, 77 33100 Udine",
+    "companyMail": "info@sudin.org",
+    "companyAddress": "Via Torino, 77 33100 Udine",
     "companyFiscalCode": "94100040305",
-    "companyPhone": "+39 0432 478652 • +39 0432 838661",
+    "companyPhone": "+39 0432 478652",
     "companyFax": "+39 0432 838681",
 
+    "companyCC": "11193398",
+    "companyBank": "BANCA POPOLARE ETICA, filiale di Padova",
+    "companyBIC": "ABI 05018, CAB 12101, CIN J",
+    "companyIBAN": "IT 15 J 05018 12101 000011193398",
+
     "pageAbout": "Associazione",
+    "pageSchool": "La scuola",
+    "pageFriends": "Amici",
     "pageProject": "Progetti",
     "pageGallery": "Gallery",
-    "pageSchool": "La scuola",
     "pageEvents": "Eventi",
     "pageSupport": "Donazioni",
 
-    "buttonAction": "Do"
+    "buttonAction": "Pagina Donazioni"
   }
   
