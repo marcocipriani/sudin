@@ -3,7 +3,7 @@ title: 'Eventi'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-# FA LA COSA GIUSTA!
+## FA LA COSA GIUSTA!
 
 ###### 13-15 marzo
 
@@ -12,7 +12,7 @@ Nei tre giorni della Fiera nel nostro stand sono state esposte le fotografie sca
 
 ---
 
-# Notte al castello di SUSANS
+## Notte al castello di SUSANS
 
 ###### 18 settembre
 
