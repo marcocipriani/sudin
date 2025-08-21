@@ -9,9 +9,10 @@ import type { MetaData } from '~/types';
 
 export interface Props {
   metadata: MetaData; // Ensures metadata is always provided
+  showHero?: boolean;
 }
 
-const { metadata } = Astro.props;
+const { metadata, showHero = true } = Astro.props;
 ---
 <Layout metadata={metadata}>
   <!-- Header Slot with Default Content -->
@@ -19,20 +20,22 @@ const { metadata } = Astro.props;
     <Header {...headerData} isSticky showRssFeed showToggleTheme />
   </slot>
 
-  <Hero
-  tagline=""
-  image={{
-    src: '~/assets/images/hero-image.jpg',
-    alt: 'Sudin',
-  }}
-  >
-    <Fragment slot="title">
-      <span class="text-primary dark:text-white highlight">{metadata.title}</span>
-    </Fragment>
+  {showHero && (
+    <Hero
+    tagline=""
+    image={{
+      src: '~/assets/images/hero-image.jpg',
+      alt: 'Sudin',
+    }}
+    >
+      <Fragment slot="title">
+        <span class="text-primary dark:text-white highlight">{metadata.title}</span>
+      </Fragment>
 
-    <Fragment slot="subtitle">
-    </Fragment>
-  </Hero>
+      <Fragment slot="subtitle">
+      </Fragment>
+    </Hero>
+  )}
 
   <!-- Main Content -->
   <main>

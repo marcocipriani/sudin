@@ -16,6 +16,9 @@
 
 `npm run build` to build the site and upload the `dist` folder content on the server root folder.
 
+## Gallery doc
+[React Photo Album](https://react-photo-album.com/documentation)
+
 ## Acknowledgements
 
 Initially created by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/onwidget/astrowind/graphs/contributors).

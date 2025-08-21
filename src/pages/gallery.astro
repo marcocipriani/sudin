@@ -1,21 +1,26 @@
 ---
 import Hero from '~/components/widgets/Hero.astro';
-import Layout from '~/layouts/PageLayout.astro';
+import Layout from '~/layouts/ContentPageLayout.astro';
 import ImageCarousel from '~/components/widgets/ImageCarousel.astro';
 import CallToActionDonation from '~/components/widgets/CallToActionDonation.astro';
 import strings from '~/strings.json';
+
+import ImgGallery from '~/components/widgets/Gallery.jsx';
+import gallery from '~/gallery-settings';
 
 const metadata = {
   title: strings.pageGallery,
 };
 ---
 
-<Layout metadata={metadata}>
+<Layout metadata={metadata} showHero={false}>
+  
   <div style="text-align: center">
+    <h1>{strings.pageGallery}</h1>
     <p>Stiamo raccogliendo le foto più significative dei nostri progetti.</p>
   </div>
-
-  <ImageCarousel />
-
-  <CallToActionDonation/>
+  
+  <!-- <ImageCarousel /> -->  
+  {gallery && gallery.enabled && <ImgGallery client:only="react" photos={gallery.photos} layout={gallery.layout} />}
+  <!-- photos in src/assets/images/gallery -->
 </Layout>

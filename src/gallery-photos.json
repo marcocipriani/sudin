@@ -1,0 +1,72 @@
+[
+  {
+    "key": 0,
+    "alt": "Sudin",
+    "src": "/images/gallery/hero-image.jpg",
+    "width": 1820,
+    "height": 2732
+  },
+  {
+    "key": 1,
+    "alt": "Sudin",
+    "src": "/images/gallery/hero-image-2.jpg",
+    "width": 1456,
+    "height": 1820
+  },
+  {
+    "key": 2,
+    "alt": "Sudin",
+    "src": "/images/gallery/hero-image.jpg",
+    "width": 1366,
+    "height": 910
+  },
+  {
+    "key": 3,
+    "alt": "Sudin.jpg",
+    "src": "/images/gallery/hero-image.jpg",
+    "width": 1000,
+    "height": 1500
+  },
+  {
+    "key": 4,
+    "alt": "Sudin.jpg",
+    "src": "/images/gallery/hero-image.jpg",
+    "width": 1000,
+    "height": 1500
+  },
+  {
+    "key": 5,
+    "alt": "Sudin.jpg",
+    "src": "/images/gallery/hero-image.jpg",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "key": 6,
+    "alt": "Sudin.jpg",
+    "src": "/images/gallery/hero-image.jpg",
+    "width": 2189,
+    "height": 1459
+  },
+  {
+    "key": 7,
+    "alt": "Sudin.jpg",
+    "src": "/images/gallery/hero-image.jpg",
+    "width": 2736,
+    "height": 1824
+  },
+  {
+    "key": 8,
+    "alt": "Sudin.jpg",
+    "src": "/images/gallery/hero-image.jpg",
+    "width": 3648,
+    "height": 5472
+  },
+  {
+    "key": 9,
+    "alt": "Sudin.jpg",
+    "src": "/images/gallery/hero-image.jpg",
+    "width": 1467,
+    "height": 2200
+  }
+]
