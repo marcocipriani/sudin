@@ -1,6 +1,7 @@
 ---
 title: 'Sostenibilità'
 layout: '~/layouts/MarkdownLayout.astro'
+showHero: false
 ---
 
 ## Indipendenza economica

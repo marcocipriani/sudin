@@ -1,6 +1,7 @@
 ---
 title: 'Eventi'
 layout: '~/layouts/MarkdownLayout.astro'
+showHero: false
 ---
 
 Dal 2009 Sudin organizza raccolte fondi e incontri di sensibilizzazione in tutta Italia.

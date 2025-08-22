@@ -1,6 +1,7 @@
 ---
 title: 'La scuola'
 layout: '~/layouts/MarkdownLayout.astro'
+showHero: false
 ---
 
 
