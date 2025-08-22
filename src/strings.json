@@ -5,8 +5,6 @@
     "companyMail": "info@sudin.org",
     "companyAddress": "Via Torino, 77 33100 Udine",
     "companyFiscalCode": "94100040305",
-    "companyPhone": "+39 0432 478652",
-    "companyFax": "+39 0432 838681",
 
     "companyCC": "11193398",
     "companyBank": "BANCA POPOLARE ETICA, filiale di Padova",
@@ -14,7 +12,8 @@
     "companyIBAN": "IT 15 J 05018 12101 000011193398",
 
     "pageAbout": "Associazione",
-    "pageProject": "Progetti",
+    "pageSchool": "La scuola",
+    "pageSustainability": "Sostenibilita",
     "pageGallery": "Gallery",
     "pageEvents": "Eventi",
     "pageSupport": "Donazioni",

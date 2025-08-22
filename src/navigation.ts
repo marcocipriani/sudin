@@ -7,8 +7,12 @@ export const headerData = {
       href: getPermalink('/associazione'),
     },
     {
-      text: 'Progetti',
-      href: getPermalink('/progetti'),
+      text: 'La scuola',
+      href: getPermalink('/scuola'),
+    },
+    {
+      text: 'Sostenibilità',
+      href: getPermalink('/sostenibilita'),
     },
     {
       text: 'Gallery',
