@@ -17,12 +17,12 @@ La scuola è insertia nella rete del dipartimento dell’educazione della Dioces
 
 ### Le classi
 
-Non appena istituito, il centro di formazione professionale ospitava tre corsi:
+Non appena istituito, il centro di formazione professionale ospitava tre corsi di scuola primaria (P):
 - **Classe P6** - equivalente alla prima media italiana
 - **Classe P7** - equivalente alla seconda media italiana  
 - **Classe P8** - equivalente alla terza media italiana
 
-Da giugno 2025 è stata introdotta introdotta la **classe P9**, equivalente al primo anno di istruzione secondaria di secondo grado.
+Da giugno 2025 è stata introdotta introdotta la **classe Senior 1**, equivalente al primo anno di istruzione secondaria di secondo grado.
 
 ### Il piano di studi
 
@@ -58,6 +58,17 @@ Da giugno 2025, quindi, è stata avviata la classe P9, che vedrà iscritti 52 nu
 
 Per adeguare alle nuove necessità il centro formativo si prevede la realizzazione di nuove aule, di due dormitori, il nuovo refettorio, un’aula per gli insegnanti e la biblioteca. Queste nuove infrastrutture verranno realizzate a partire da settembre 2025
 
+### Il dormitorio femminile
+
+Per rendere possibile la trasformazione dell’IDVTC in scuola tecnica superiore e garantire l’accesso alle studentesse provenienti dai villaggi più lontani, è prevista la costruzione di un nuovo dormitorio femminile. Attualmente solo 13 delle 34 ragazze frequentanti l’istituto hanno la possibilità di alloggiare presso le strutture scolastiche.
+
+Il progetto, dal titolo *"Radici di Sapere, Ali di Uguaglianza: dove l’istruzione mette radici, la parità prende il volo"*, è stato finanziato dalla Regione Autonoma Friuli Venezia Giulia nell’ambito del Bando 2025 per la cooperazione allo sviluppo (L.R. 19/2000).
+
+<div class="not-prose mt-6 flex flex-col items-center text-center">
+  <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">Con il sostegno di:</p>
+  <img src="/images/logo-regione-fvg.png" alt="Regione Autonoma Friuli Venezia Giulia" class="h-14 dark:invert" />
+  <p class="mt-2 text-xs text-gray-500 dark:text-gray-400">Legge regionale 19/2000</p>
+</div>
 
 ## Chi era Ireneo Dud?
 

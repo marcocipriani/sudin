@@ -36,7 +36,6 @@ export const footerData = {
       title: 'Siti amici',
       links: [
         { text: 'Fondazione Petrucco', href: 'https://www.fondazionepetrucco.it/', target: '_blank' },
-        { text: 'Vecchio sito', href: 'http://www.sudin.org/tool/home.php', target: '_blank' },
       ],
     },
   ],

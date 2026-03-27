@@ -14,7 +14,23 @@
 
 #### Deploy to production
 
-`npm run build` to build the site and upload the `dist` folder content on the server root folder.
+Requires `lftp` (`brew install lftp`). For password-free deploys, add credentials to `~/.netrc`:
+
+```
+machine 93.43.27.14
+login mcweb
+password YOUR_PASSWORD
+```
+
+Then `chmod 600 ~/.netrc`.
+
+Deploy with:
+
+```bash
+npm run deploy
+```
+
+This builds the site and syncs `dist/` to the server via SFTP, uploading only changed files.
 
 ## Gallery doc
 [React Photo Album](https://react-photo-album.com/documentation)

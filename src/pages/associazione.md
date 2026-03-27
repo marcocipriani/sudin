@@ -39,3 +39,7 @@ L'obiettivo dell'Associazione è quello di coinvolgere il mondo delle imprese as
 - Confindustria FVG
 - Confartigianato FVG
 - Lega coop Udine
+
+#### Enti finanziatori
+
+- Regione Autonoma Friuli Venezia Giulia (L.R. 19/2000 - Bando 2025)
