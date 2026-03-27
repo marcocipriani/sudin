@@ -1,6 +1,6 @@
 ---
 const galleryImages = Object.entries(import.meta.glob('/src/assets/images/gallery/*.{png,jpg,jpeg,svg}', { eager: true })).map(([path, image]) => ({
-  src: image.default,
+  src: (image as { default: { src: string } }).default.src,
   alt: path.split('/').pop()?.replace(/\.[^/.]+$/, '').replace(/-/g, ' ') || 'Gallery Image',
 }));
 ---
@@ -9,7 +9,7 @@ const galleryImages = Object.entries(import.meta.glob('/src/assets/images/galler
     <!-- Carousel wrapper -->
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
         {galleryImages.map((image, idx) => (
-            <div class={`hidden duration-700 ease-in-out`} data-carousel-item key={idx}>
+            <div class={`hidden duration-700 ease-in-out`} data-carousel-item={true}>
                 <img src={image.src} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt={image.alt} />
             </div>
         ))}
@@ -24,7 +24,6 @@ const galleryImages = Object.entries(import.meta.glob('/src/assets/images/galler
                 aria-current={idx === 0 ? "true" : "false"}
                 aria-label={`Slide ${idx + 1}`}
                 data-carousel-slide-to={idx}
-                key={idx}
             ></button>
         ))}
     </div>
